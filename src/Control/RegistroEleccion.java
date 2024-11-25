@@ -120,9 +120,9 @@ public class RegistroEleccion {
         Miembro[] nuevosMiembros = new Miembro[MAX];
         int nuevaPosicion = 0;
         
-        for (int i = 0; i < miembros.length; i++) {
+        for (int i = 0; i < MesasActuales.length; i++) {
             
-            if (i != indexmiembro && miembros[i] != null) {
+            if (i != indexmesa && MesasActuales[i] != null) {
                 nuevosMiembros[nuevaPosicion] = miembros[i];
                 nuevaPosicion++;
             }
