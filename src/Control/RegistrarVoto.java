@@ -16,7 +16,7 @@ public class RegistrarVoto {
     private Stack Voto;
     private RegistroEleccion objregistroeleccion;
     
-
+//hola
     public RegistrarVoto(RegistroEleccion objregistroeleccion) {
         this.Voto = new Stack(1000);
         this.objregistroeleccion = objregistroeleccion;
